@@ -1,7 +1,12 @@
-Project Understanding and Approach Document
+inProject Understanding and Approach Document
 
 Project Overview
-The project aims to enhance public transportation services by integrating IoT sensors into public transportation vehicles. This integration will allow for the monitoring of ridership, tracking of vehicle locations, and the prediction of arrival times. The ultimate goal is to provide real-time transit information to the public through a public platform, thereby improving the efficiency and quality of public transportation services. The project can be divided into four main phases: defining objectives, designing the IoT sensor system, developing the real-time transit information platform, and integrating them using IoT technology and Python.
+The project aims to enhance public transportation services by integrating IoT sensors into public transportation 
+vehicles. This integration will allow for the monitoring of ridership, tracking of vehicle locations, and the prediction 
+of arrival times. The ultimate goal is to provide real-time transit information to the public through a public platform, 
+thereby improving the efficiency and quality of public transportation services. The project can be divided into four main 
+phases: defining objectives, designing the IoT sensor system, developing the real-time transit information platform, and 
+integrating them using IoT technology and Python.
 
 1. Defining Objectives:
 Objective 1: Enhance Public Transportation Efficiency
@@ -33,7 +38,8 @@ Power Management:
    - Implement sleep modes when vehicles are not in operation.
 
 3. Developing the Real-time Transit Information Platform:
-A user-friendly platform will be developed to provide real-time transit information to passengers. Key features will include:
+A user-friendly platform will be developed to provide real-time transit information to passengers. Key features will 
+include:
    - Mobile and web application for easy access.
    - Real-time location tracking of vehicles.
    - Predictive arrival times.
@@ -50,6 +56,9 @@ Testing and Quality Assurance:
    - Ensure data accuracy and platform reliability.
 
 Conclusion :
-The project aims to revolutionize public transportation by providing real-time transit information to the public. By defining clear objectives, designing an efficient IoT sensor system, developing a user-friendly platform, and ensuring seamless integration, we are confident in achieving the project's goals. Regular testing and quality assurance will be essential throughout the project to deliver a reliable and efficient public transportation service.
+The project aims to revolutionize public transportation by providing real-time transit information to the public. By 
+defining clear objectives, designing an efficient IoT sensor system, developing a user-friendly platform, and ensuring 
+seamless integration, we are confident in achieving the project's goals. Regular testing and quality assurance will be 
+essential throughout the project to deliver a reliable and efficient public transportation service.
 
 *This document serves as an initial plan and may require further refinement as the project progresses.*
