@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "author": "Shraddha Trivedi",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 10.2, "left": -115.8, "attrs": {} },
+    { "type": "wokwi-servo", "id": "servo1", "top": -242, "left": -460.8, "attrs": {} },
+    { "type": "wokwi-ir-receiver", "id": "ir1", "top": -10.95, "left": -289.78, "attrs": {} },
+    { "type": "wokwi-ir-receiver", "id": "ir2", "top": 171.45, "left": 497.42, "attrs": {} },
+    {
+      "type": "wokwi-lcd1602",
+      "id": "lcd1",
+      "top": -176,
+      "left": 149.6,
+      "attrs": { "pins": "i2c" }
+    },
+    {
+      "type": "wokwi-buzzer",
+      "id": "bz1",
+      "top": 12,
+      "left": 203.4,
+      "attrs": { "volume": "0.1" }
+    },
+    { "type": "wokwi-pir-motion-sensor", "id": "pir1", "top": 292, "left": -228.18, "attrs": {} }
+  ],
+  "connections": [
+    [ "servo1:PWM", "uno:3", "green", [ "h211.26", "v36.1" ] ],
+    [ "ir1:DAT", "uno:2", "green", [ "v19.37", "h-211.08" ] ],
+    [ "ir2:DAT", "uno:4", "green", [ "v-195.46", "h-239.7" ] ],
+    [ "ir1:GND", "uno:GND.2", "black", [ "v0" ] ],
+    [ "ir2:GND", "uno:GND.3", "black", [ "v-116.8", "h-11.16", "v2", "h-0.67", "v-3.33" ] ],
+    [ "ir1:VCC", "uno:5V", "red", [ "v207.21", "h-278.74" ] ],
+    [ "ir2:VCC", "uno:5V", "red", [ "v-128.13", "h-13.43", "v124", "h-276" ] ],
+    [ "lcd1:VCC", "uno:5V", "red", [ "h-4.56", "v-99.59", "h-275.86" ] ],
+    [ "lcd1:SDA", "uno:A4", "blue", [ "h0" ] ],
+    [ "lcd1:SCL", "uno:A5", "green", [ "h0" ] ],
+    [ "servo1:V+", "uno:5V", "red", [ "h420.11", "v244.21", "h-274.13" ] ],
+    [ "servo1:GND", "uno:GND.3", "black", [ "h410.97", "v81.11" ] ],
+    [ "lcd1:GND", "uno:GND.2", "black", [ "h-269.94", "v-95.52" ] ],
+    [ "bz1:1", "uno:GND.3", "cyan", [ "v337.36", "h-114.55" ] ],
+    [ "pir1:VCC", "uno:5V", "orange", [ "v6.98", "h240.35", "v-193.34" ] ],
+    [ "pir1:GND", "uno:GND.3", "#8f4814", [ "v-4.85", "h210.37" ] ],
+    [ "pir1:OUT", "uno:6", "green", [ "v-411.27", "h249.03" ] ],
+    [ "bz1:2", "uno:7", "violet", [ "v123.05", "h-119.07" ] ]
+  ],
+  "dependencies": {}
+}
